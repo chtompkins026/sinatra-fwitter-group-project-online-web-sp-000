@@ -6,7 +6,7 @@
   <body>
     Welcome, <%=@user.username%>
     <%@tweets.each_with_index do |tweet, index|%>
-      <p><%= index %>, <%=tweet.content%></p>
+      <p><%=index %>, <%=tweet.content%></p>
     <%end%>
       
   </body>
